@@ -1,0 +1,20 @@
+formatter: markdown
+
+output:
+  file: README.md
+  mode: replace
+  template: |-
+    {{ .Content }}
+header-from: "docs/header.md"
+footer-from: "docs/footer.md"
+sections:
+  show-all: false
+  show:
+    - header
+    - requirements
+    - providers
+    - resources
+    - modules  
+    - inputs
+    - outputs
+    - footer
